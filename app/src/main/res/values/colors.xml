@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="BACGreen">#4DD865</color>
+    <color name="BACRed">#FF3838</color>
+    <color name="BACOrange">#FEB400</color>
+    <color name="BACBlue">#0E7AFE</color>
+    <color name="BACGray">#EFEFEF</color>
+    <color name="BACWhite">#FFFFFF</color>
+</resources>
