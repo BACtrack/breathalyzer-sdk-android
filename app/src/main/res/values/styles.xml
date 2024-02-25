@@ -1,0 +1,25 @@
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/BACBlue</item>
+        <item name="android:buttonStyle">@style/BTButton</item>
+
+    </style>
+
+    <style name="BTTextStyle">
+        <item name="android:textColor">@color/BACWhite</item>
+    </style>
+
+    <style name="BTButton" parent="android:Widget.Holo.Button">
+        <item name="android:textColor">@color/BACWhite</item>
+        <item name="android:backgroundTint">@color/BACBlue</item>
+    </style>
+
+    <style name="BTTextView" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/BACWhite</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+</resources>

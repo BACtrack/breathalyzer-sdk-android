@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="18dp"
+    android:background="@color/BACWhite"
+    tools:context=".MainActivity"
+    >
+
+  <androidx.appcompat.widget.AppCompatImageView
+      android:layout_width="match_parent"
+      android:layout_height="200dp"
+      android:scaleType="centerInside"
+      app:srcCompat="@drawable/bactrack_logo"
+      />
+  <TextView
+      android:id="@+id/connectionStateTextView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="18sp"
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:text="No Device Connected"
+      android:textAlignment="center"
+      android:textColor="@color/BACBlue"
+      />
+
+
+  <TextView
+      android:id="@+id/breathalyzerStateTextView"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_gravity="center"
+      android:layout_marginBottom="50dp"
+      android:gravity="center"
+      android:layout_weight="1"
+      android:text="Tap on Connect Breathalyzer"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:textColor="#000000"
+      android:textStyle="bold"
+      />
+
+
+  <Button
+      android:id="@+id/connect_nearest_button_id"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Connect Breathalyzer"
+      />
+
+
+  <Button
+      android:id="@+id/get_battery_level"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Get Battery Level"
+      />
+
+  <Button
+      android:id="@+id/get_serial_number_button_id"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Get Serial Number"
+      />
+
+  <Button
+      android:id="@+id/get_use_count_button_id"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Get Use Count"
+      />
+
+  <Button
+      android:id="@+id/start_blow_process_button_id"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Start Test Countdown"
+      />
+
+  <Button
+      android:id="@+id/disconnect_button_id"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="40dp"
+      android:text="Disconnect"
+      />
+
+</LinearLayout>
